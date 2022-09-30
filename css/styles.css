@@ -1,0 +1,46 @@
+:root{
+    --color-background-main:#FFFFFF;
+    --color-background-secondury:#2F303A;
+    --color-background-accent: #F5F4FA;
+    --color-accent:#2196F3;
+    --color-font-main:#212121;
+    --color-font-secondury: #757575;
+    --color-font-accent: #FFFFFF;
+}
+
+.logo-header{
+        color: var(--color-font-main);
+        text-decoration:none
+    }
+.logo-link {
+    color: var(--color-accent);
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+body{
+    background-color: var(--color-background-main);
+    font-family: 'roboto', sans-serif;
+    }
+.hero-title {
+    background-color: var(--color-background-secondury);
+    color: var(--color-font-accent);
+}
+.primary-button{
+        background-color: var(--color-accent);
+        color: var(--color-font-accent);
+        border:none
+        }
+
+footer{
+        background-color: var(--color-background-secondury);
+    }
+
+
+.mailto {color: var(--color-font-secondury)}
+.tel {
+    color: var(--color-font-secondury)
+}
+.adress {
+        color: var(--color-font-accent)
