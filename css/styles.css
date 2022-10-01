@@ -1,46 +1,109 @@
 :root{
     --color-background-main:#FFFFFF;
-    --color-background-secondury:#2F303A;
+    --color-background-secondary:#2F303A;
     --color-background-accent: #F5F4FA;
     --color-accent:#2196F3;
     --color-font-main:#212121;
-    --color-font-secondury: #757575;
+    --color-font-secondary: #757575;
     --color-font-accent: #FFFFFF;
 }
 
-.logo-header{
-        color: var(--color-font-main);
-        text-decoration:none
-    }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer {
+    background-color: var(--color-background-secondary);
+}
+
+/* Link */
+.logo-header {
+    color: var(--color-font-main);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
 .logo-link {
     color: var(--color-accent);
-    text-decoration:none;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
 }
-body{
-    background-color: var(--color-background-main);
-    font-family: 'roboto', sans-serif;
-    }
+
+.nav{color: var(--color-font-main)}
+
+.link{
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--color-accent);
+}
+   
 .hero-title {
-    background-color: var(--color-background-secondury);
+    background-color: var(--color-background-secondary);
     color: var(--color-font-accent);
 }
-.primary-button{
-        background-color: var(--color-accent);
-        color: var(--color-font-accent);
-        border:none
-        }
-
-footer{
-        background-color: var(--color-background-secondury);
-    }
-
-
-.mailto {color: var(--color-font-secondury)}
+.mailto {
+    color: var(--color-font-secondary)
+}
 .tel {
-    color: var(--color-font-secondury)
+    color: var(--color-font-secondary)
 }
 .adress {
-        color: var(--color-font-accent)
+    color: var(--color-font-accent)
+}
+
+/* Buttons */
+.primary-button{
+    background-color: var(--color-accent);
+    color: var(--color-font-accent);
+    border: none;
+}
+.primary-button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-font-accent);
+    border: none;}
+
+.filter{
+    background-color: var(--color-background-accent);
+    color: var(--color-font-main);
+    border:none;
+}
+.filter:hover {
+    color: var(--color-background-accent);
+    background-color: var(--color-accent);
+    border: none;
+}
+.filter:focus {
+    color: var(--color-background-accent);
+    background-color: var(--color-accent);
+    border: none;
+}
+
+.features{
+    color: var(--color-font-main);
+}
+.features-description {
+    color: var(--color-font-secondary);
+}
+
+.case {
+    color: var(--color-font-main);
+}
+
+.case-type {
+    color: var(--color-font-secondary);
+}
+.profile{
+    background-color: var(--color-background-accent);
+}
+.name {
+    color: var(--color-font-main);
+    background-color: var(--color-background-main);
+}
+
+.speciality {
+    color: var(--color-font-secondary);
+    background-color: var(--color-background-main);
+}
+
