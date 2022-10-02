@@ -1,5 +1,5 @@
 :root{
-    --color-background-main:#FFFFFF;
+    --color-background-main:#F5F5F5;
     --color-background-secondary:#2F303A;
     --color-background-accent: #F5F4FA;
     --color-accent:#2196F3;
@@ -10,6 +10,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--color-background-main);
+    color: var(--color-font-main);
 }
 
 
@@ -22,15 +26,24 @@ footer {
     color: var(--color-font-main);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+
 }
 
 .logo-link {
     color: var(--color-accent);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
 }
 
-.nav{color: var(--color-font-main)}
+.nav{color: var(--color-font-main);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.03;
+}
 
 .link{
     text-decoration: none;
@@ -42,15 +55,27 @@ footer {
 .hero-title {
     background-color: var(--color-background-secondary);
     color: var(--color-font-accent);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 3.75;
 }
 .mailto {
-    color: var(--color-font-secondary)
+    color: var(--color-font-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.026;
 }
 .tel {
-    color: var(--color-font-secondary)
+    color: var(--color-font-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.026;
 }
 .adress {
-    color: var(--color-font-accent)
+    color: var(--color-font-accent);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.026;
 }
 
 /* Buttons */
@@ -58,16 +83,24 @@ footer {
     background-color: var(--color-accent);
     color: var(--color-font-accent);
     border: none;
-}
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    }
+    
 .primary-button:hover {
     background-color: var(--color-accent);
     color: var(--color-font-accent);
-    border: none;}
+    border: none;
+}
 
 .filter{
     background-color: var(--color-background-accent);
     color: var(--color-font-main);
     border:none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
 }
 .filter:hover {
     color: var(--color-background-accent);
@@ -82,28 +115,51 @@ footer {
 
 .features{
     color: var(--color-font-main);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.026;
 }
 .features-description {
     color: var(--color-font-secondary);
+    line-height: 1.5;
+}
+.preview{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2/637;
 }
 
 .case {
     color: var(--color-font-main);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.25;
 }
 
 .case-type {
     color: var(--color-font-secondary);
-}
+    font-size: 16px;
+    line-height: 1.875;
+    }
 .profile{
     background-color: var(--color-background-accent);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.636;
 }
 .name {
     color: var(--color-font-main);
     background-color: var(--color-background-main);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.171;
 }
 
 .speciality {
     color: var(--color-font-secondary);
     background-color: var(--color-background-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.171;
 }
 
