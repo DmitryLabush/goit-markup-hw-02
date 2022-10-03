@@ -11,16 +11,14 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    background-color: var(--color-background-main);
     color: var(--color-font-main);
 }
-
 
 .footer {
     background-color: var(--color-background-secondary);
 }
 
-/* Link */
+
 .logo-link {
     color: var(--color-accent);
     text-decoration: none;
@@ -42,7 +40,7 @@ body{
 .nav{color: var(--color-font-main);
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.14;
+    line-height: 1.17;
     letter-spacing: 0.02em;
 }
 
@@ -56,20 +54,12 @@ body{
     color: var(--color-accent);
 }
 
-.hero {background-color: var(--color-background-secondary);
-    color: var(--color-font-accent);
-    font-size: 26px;
-    line-height: 1.36;
-    font-weight: 900;
-    letter-spacing: 0.06em;
-    text-align: center;
-    vertical-align: top;
-}
+
 .contacts-link {
     color: var(--color-font-secondary);
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.71;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -86,9 +76,20 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.
 
-/* Buttons */
+.hero {
+    background-color: var(--color-background-secondary);
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+.hero-tittle{
+    color: var(--color-font-accent);
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;   
+}
 
 .primary-button {
     font-family: inherit;
@@ -101,7 +102,6 @@ body{
     letter-spacing: 0.06em;
     cursor: pointer;
     }
-    
 .primary-button:hover {
     background-color: var(--color-accent);
     color: var(--color-font-accent);
@@ -129,7 +129,6 @@ body{
     background-color: var(--color-accent);
     border: none;
 }
-
 .features{
     color: var(--color-font-main);
     font-size: 14px;
@@ -143,8 +142,8 @@ body{
     color: var(--color-font-secondary);
     line-height: 1.71;
     letter-spacing: 0.03em;
-
 }
+
 .preview{
     font-size: 36px;
     font-weight: 700;
@@ -152,7 +151,6 @@ body{
     letter-spacing: 0.03em;
     text-align: center;
 }
-
 .case {
     color: var(--color-font-main);
     font-size: 18px;
@@ -160,7 +158,6 @@ body{
     line-height: 2;
     letter-spacing: 0.03em;
 }
-
 .case-type {
     color: var(--color-font-secondary);
     font-size: 16px;
@@ -168,15 +165,18 @@ body{
     letter-spacing: 0.03em;
     }
 
+
 .team{
     background-color: var(--color-background-accent);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 2.636;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     text-align: center;
-    
+    vertical-align: top;
+    text-transform: uppercase;
+    }
+.team-tittle {
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;
 }
 .name {
     color: var(--color-font-main);
@@ -186,11 +186,11 @@ body{
     letter-spacing: 0.03em;
     text-align: center;
 }
-
 .speciality {
     color: var(--color-font-secondary);
     font-size: 16px;
-    line-height: 1.19;
+    font-weight: 400;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
 }
