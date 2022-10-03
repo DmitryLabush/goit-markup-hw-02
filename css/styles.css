@@ -1,5 +1,5 @@
 :root{
-    --color-background-main:#F5F5F5;
+    --color-background-main:#FFFFFF;
     --color-background-secondary:#2F303A;
     --color-background-accent: #F5F4FA;
     --color-accent:#2196F3;
@@ -11,81 +11,95 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     background-color: var(--color-background-main);
     color: var(--color-font-main);
 }
 
 
-footer {
+.footer {
     background-color: var(--color-background-secondary);
 }
 
 /* Link */
-.logo-header {
-    color: var(--color-font-main);
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-
-}
-
 .logo-link {
     color: var(--color-accent);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    line-height: 1.1923;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
+.logo-header {
+    color: var(--color-font-main);
+    }
+
+.logo-footer {
+    color: var(--color-font-accent);}
+
+
 
 .nav{color: var(--color-font-main);
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.03;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link{
     text-decoration: none;
 }
+
+.list {list-style: none;}
+
 .link:hover {
     color: var(--color-accent);
 }
-   
-.hero-title {
-    background-color: var(--color-background-secondary);
+
+.hero {background-color: var(--color-background-secondary);
     color: var(--color-font-accent);
-    font-size: 44px;
+    font-size: 26px;
+    line-height: 1.36;
     font-weight: 900;
-    line-height: 3.75;
+    letter-spacing: 0.06em;
+    text-align: center;
+    vertical-align: top;
 }
-.mailto {
+.contacts-link {
     color: var(--color-font-secondary);
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.026;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
-.tel {
+
+.footer-adress{font-style: normal;}
+
+.footer-contacts{
     color: var(--color-font-secondary);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.026;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
 }
 .adress {
     color: var(--color-font-accent);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.026;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
+.
 
 /* Buttons */
-.primary-button{
+
+.primary-button {
+    font-family: inherit;
     background-color: var(--color-accent);
     color: var(--color-font-accent);
     border: none;
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.875;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
     }
     
 .primary-button:hover {
@@ -95,12 +109,15 @@ footer {
 }
 
 .filter{
+    font-family: inherit;
     background-color: var(--color-background-accent);
     color: var(--color-font-main);
     border:none;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.625;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .filter:hover {
     color: var(--color-background-accent);
@@ -116,50 +133,65 @@ footer {
 .features{
     color: var(--color-font-main);
     font-size: 14px;
-    font-weight: 500;
-    line-height: 1.026;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 .features-description {
     color: var(--color-font-secondary);
-    line-height: 1.5;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
 }
 .preview{
     font-size: 36px;
     font-weight: 700;
-    line-height: 2/637;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .case {
     color: var(--color-font-main);
     font-size: 18px;
     font-weight: 700;
-    line-height: 2.25;
+    line-height: 2;
+    letter-spacing: 0.03em;
 }
 
 .case-type {
     color: var(--color-font-secondary);
     font-size: 16px;
     line-height: 1.875;
+    letter-spacing: 0.03em;
     }
-.profile{
+
+.team{
     background-color: var(--color-background-accent);
     font-size: 36px;
     font-weight: 700;
     line-height: 2.636;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    
 }
 .name {
     color: var(--color-font-main);
-    background-color: var(--color-background-main);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.171;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .speciality {
     color: var(--color-font-secondary);
-    background-color: var(--color-background-main);
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.171;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
