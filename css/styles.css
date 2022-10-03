@@ -173,10 +173,10 @@ body{
     text-transform: uppercase;
     }
 .team-tittle {
-    font-size: 44px;
-    line-height: 1.36;
-    font-weight: 900;
-    letter-spacing: 0.06em;
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 .name {
     color: var(--color-font-main);
