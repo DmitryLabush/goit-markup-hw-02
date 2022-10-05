@@ -11,6 +11,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    text-transform: none;
     color: var(--color-font-main);
 }
 
@@ -48,7 +49,8 @@ body{
     text-decoration: none;
 }
 
-.list {list-style: none;}
+.list {list-style: none;
+text-transform: none;}
 
 .link:hover {
     color: var(--color-accent);
@@ -177,6 +179,7 @@ body{
     line-height: 1.17;
     font-weight: 700;
     letter-spacing: 0.03em;
+    text-transform: none;
 }
 .name {
     color: var(--color-font-main);
